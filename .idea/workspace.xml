@@ -74,6 +74,11 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD 下载并运行.new_lib">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="new_lib.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="new_lib" TARGET_NAME="new_lib.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="new_lib" RUN_TARGET_NAME="new_lib.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -108,7 +113,7 @@
       <workItem from="1726329550409" duration="2021000" />
       <workItem from="1726331617017" duration="47000" />
       <workItem from="1726363409971" duration="45090000" />
-      <workItem from="1726497105278" duration="2000" />
+      <workItem from="1726497105278" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Library that facilitates calling hal">
       <option name="closed" value="true" />

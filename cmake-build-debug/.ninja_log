@@ -215,3 +215,8 @@
 20	209	7481995376433344	CMakeFiles/new_lib.elf.dir/Lib/BSP_lib/Gpio/Gpio.cpp.obj	269a8fe33a775e42
 5	274	7481995377073489	CMakeFiles/new_lib.elf.dir/Core/Src/main.cpp.obj	2f61d756b0ff3d26
 274	515	7481995379025253	new_lib.elf	3a1411a28d385dc5
+4	260	7482011678474447	CMakeFiles/new_lib.elf.dir/Core/Src/main.cpp.obj	2f61d756b0ff3d26
+260	501	7482011680404912	new_lib.elf	3a1411a28d385dc5
+20	162	7482014593342339	CMakeFiles/new_lib.elf.dir/Lib/BSP_lib/Serial/Serial.cpp.obj	b5db7f0951f40b0f
+4	232	7482014594048240	CMakeFiles/new_lib.elf.dir/Core/Src/main.cpp.obj	2f61d756b0ff3d26
+233	475	7482014596028691	new_lib.elf	3a1411a28d385dc5
