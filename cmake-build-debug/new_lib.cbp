@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="new_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CODE/STM32/new_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_lib.elf">
+				<Option output="D:/CODE/STM32/new_lib/cmake-build-debug/new_lib.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/STM32/new_lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/STM32/new_lib"/>
+					<Add directory="D:/CODE/STM32/new_lib/Core/Inc"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include"/>
+					<Add directory="D:/CODE/STM32/new_lib/Lib/BSP_lib"/>
+					<Add directory="D:/CODE/STM32/new_lib/Lib/Soft_lib"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_lib.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_lib.elf/fast">
+				<Option output="D:/CODE/STM32/new_lib/cmake-build-debug/new_lib.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/STM32/new_lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/STM32/new_lib"/>
+					<Add directory="D:/CODE/STM32/new_lib/Core/Inc"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include"/>
+					<Add directory="D:/CODE/STM32/new_lib/Lib/BSP_lib"/>
+					<Add directory="D:/CODE/STM32/new_lib/Lib/Soft_lib"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed"/>
+					<Add directory="D:/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_lib.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CODE/STM32/new_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CODE/STM32/new_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/new_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Inc/main.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Inc/stm32f4xx_it.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/main.cpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/stm32f4xx_it.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/syscalls.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/sysmem.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Src/system_stm32f4xx.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Core/Startup/startup_stm32f407zgtx.s">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/CMSIS/LICENSE.txt">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32f4xx_hal_can_legacy.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cec.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dfsdm.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma2d.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_irda.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_lptim.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_mmc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nand.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nor.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pccard.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smartcard.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smbus.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spdifrx.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_wwdg.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dac.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma2d.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmpi2c.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_iwdg.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_lptim.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rtc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_wwdg.h">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/applypatch-msg.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/commit-msg.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/post-update.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-applypatch.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-commit.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-merge-commit.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-push.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-rebase.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/pre-receive.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/prepare-commit-msg.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/push-to-checkout.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/.git/hooks/update.sample">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/BitBand/BitBand.hpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/Gpio/Gpio.cpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/Gpio/Gpio.hpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/Rcc/rcc.cpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/Rcc/rcc.hpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/SysTick/sys_tick.cpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/BSP_lib/SysTick/sys_tick.hpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/Soft_lib/Key/MuiltKey.cpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/Lib/Soft_lib/Key/MuiltKey.hpp">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/STM32F407ZGTX_FLASH.ld">
+			<Option target="new_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/new_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
